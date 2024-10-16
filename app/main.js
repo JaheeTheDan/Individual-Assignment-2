@@ -93,7 +93,7 @@ function populate_cart(){
         const row = document.createElement("tr");
         row.innerHTML = `
             <td>${item.fullname}</td>
-            <td>\$${item.price}</td>
+            <td>\$${item.price} USD</td>
         `;
         cart_items.children.item("tbody").append(row);
     }

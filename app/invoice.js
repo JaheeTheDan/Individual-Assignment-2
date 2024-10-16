@@ -28,10 +28,10 @@ for (const item of cart) {
     const row = document.createElement("tr");
     row.innerHTML = `
         <td>${item.fullname}</td>
-        <td>\$${item.price}</td>
+        <td>\$${item.price} USD</td>
     `;
     total += item.price;
     invoice_table.appendChild(row);
 }
 
-document.getElementById("total_price").textContent = `\$${total}`;
+document.getElementById("total_price").textContent = `\$${total} USD`;

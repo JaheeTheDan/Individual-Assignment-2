@@ -193,6 +193,9 @@ header .social_icons svg:hover {
   overflow: hidden;
 }
 
+#testimoniols_sect .testimoniol h2{
+  font-family: "Lora", serif;
+}
 #testimoniols_sect .testimoniol i {
   float: right;
   padding-right: 50px;

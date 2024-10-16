@@ -77,6 +77,16 @@ function remove_from_cart(service_name){
 const add_to_cart_btns = document.querySelectorAll("button.add_to_cart_btn");
 
 
+const items_price = document.querySelectorAll(".item_price");
+
+items_price.forEach(item => {
+    const service_name = item.parentElement.parentElement.parentElement.parentElement.id;
+    item.textContent = `Price $${SERVICES_PRICE[service_name]} USD`;
+    
+});
+
+
+
 
 if (!cheak_if_a_user_login()) {
     add_to_cart_btns.forEach(btn => {
