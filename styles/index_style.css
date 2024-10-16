@@ -184,6 +184,8 @@ header .social_icons svg:hover {
   overflow: hidden;
   position: relative;
   padding-inline: 60px;
+
+  height: auto;
 }
 
 #testimoniols_sect .testimoniol {
