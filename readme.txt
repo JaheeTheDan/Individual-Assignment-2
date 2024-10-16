@@ -1,4 +1,5 @@
 # Welcome to webDevMastery
+Hosting Link: https://jaheethedan.github.io/Individual-Assignment-2/index.html
 
 The website is organized into several sections, which can be accessed through the 
 navigation menu or by clicking on the corresponding links.
